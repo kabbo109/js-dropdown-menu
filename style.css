@@ -1,0 +1,37 @@
+body{
+  background:#0f172a;
+  font-family:Arial;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.menu{
+  position:relative;
+}
+
+button{
+  padding:10px 18px;
+  border:none;
+  border-radius:20px;
+  cursor:pointer;
+}
+
+ul{
+  list-style:none;
+  padding:0;
+  margin-top:8px;
+  background:#020617;
+  color:white;
+  border-radius:8px;
+  display:none;
+}
+
+li{
+  padding:10px 16px;
+  cursor:pointer;
+}
+li:hover{
+  background:#1e293b;
+}
